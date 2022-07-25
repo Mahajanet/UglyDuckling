@@ -1,0 +1,74 @@
+@import "../../app/css/globals.css";
+@import "../../app/css/variables.css";
+@import "../../app/css/nav.css";
+
+
+body{
+    color: var(--clr-body);
+    font-family: var(--ff-body)
+}
+
+.section{
+    min-height: 70vh;
+    width: 100%;
+}
+
+.sec-1{
+    background-color: var(--clr-one);
+}
+
+.sec-2{
+    background-color: var(--clr-two);
+}
+
+.sec-3{
+    background-color: var(--clr-three);
+}
+
+.sec-4{
+    background-color: var(--clr-four);
+}
+
+.section h1{
+    padding: 2rem;
+}
+
+.control-btn{
+    color: #ffffff;
+    position: fixed;
+    background-color: grey;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0px 1px 0 #8e8e8e;
+    transition: transform 300ms;
+    right: 3rem;
+}
+
+.theme-btn{
+    top: 25rem;
+}
+
+.top-btn{
+    top: 29rem;
+    display: none
+}
+
+.visible{
+    display: flex;
+}
+
+.section-text{
+    padding: 1rem 2rem;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #191A18;
+    width: 100%;
+    height: 100px;
+    color: var(--clr-yellow);
+}
+
+/* End of code */
