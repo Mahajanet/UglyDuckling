@@ -1,0 +1,17 @@
+{
+  "name": "uglyduckling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.14"
+  }
+}
