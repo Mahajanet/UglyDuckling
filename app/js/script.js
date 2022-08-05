@@ -38,8 +38,23 @@ function createNavItem(){
     navbar.addEventListener("click", (evt)=>{
         if (evt.target.classList.contains("nav__item")){
             sectionName = document.getElementById(evt.target.dataset.id);
-            document.querySelector(".active-sec").classList.remove("active-sec")
+            document.querySelector(".active-sec").classList.remove("active-sec");
             sectionName.classList.add("active-sec");
+        listOfLi = document.querySelectorAll("li");
+        listOfLi.forEach((li) => {
+            
+            if (li.getAttribute("data-id") === sectionName.id){
+                const classExists = document.getElementsByClassName(
+                    'active-link'
+                   ).length > 0;
+                if (classExists){                
+                    document.querySelector(".active-link").classList.remove("active-link");}
+                li.parentNode.classList.add("active-link");
+            }
+        })
+        
+
+
         }
     })
 }

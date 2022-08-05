@@ -166,4 +166,17 @@ main{
     width:100%;
 }
 
+.active-link::after{
+    content: '';
+    background: #FEFD96;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
 /* End of code */
